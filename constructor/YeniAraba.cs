@@ -12,9 +12,9 @@ namespace constructor
     {
         public Araba Araba;
         
-        public YeniAraba(Marka marka,Model model, Kapi kapi, Pencere pencere, Kasa kasa, Fiyat fiyat)
+        public YeniAraba(Araba araba)
         {
-            this.Araba = Araba;
+            this.Araba = araba;
         }
 
         public void Ozellikler()
